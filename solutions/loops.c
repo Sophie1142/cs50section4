@@ -2,11 +2,12 @@
 
 int main(void)
 {
-    int i = 5;
+    int i = -5;
     if (i)
     {
         printf("entered conditional\n");
     }
+    i = 5;
 
     while(i)
     {
